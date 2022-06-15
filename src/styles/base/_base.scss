@@ -1,0 +1,31 @@
+@mixin box-sizing ($box-model) {
+    box-sizing: $box-model;
+}
+
+//Media queries
+@mixin telefono {
+    @media only screen and (min-width: #{$telefono}){
+        @content;
+    }   
+}
+@mixin telefonoGrande {
+    @media only screen and (min-width: #{$telefonoGrande}){
+        @content;
+    }  
+}
+@mixin tablet  {
+    @media only screen and (min-width: #{$tablet}){
+        @content;
+    }   
+}
+
+@mixin desktop {
+    @media only screen and (min-width: #{$desktop}){
+        @content;
+    }   
+}
+@mixin desktopGrande {
+    @media only screen and (min-width: #{$desktopGrande}){
+        @content;
+    } 
+}

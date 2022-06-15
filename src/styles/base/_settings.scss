@@ -1,0 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+//Media quieries
+$telefono: 375px;
+$telefonoGrande: 414px;
+$tablet: 768px;
+$desktop: 1200px;
+$desktopGrande: 1400px;
+
+//Fuentes
+@font-face{
+    font-family: Cocogoose;
+    src: url(../fonts/Cocogoose.otf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.ttf);
+}
+@font-face{
+    font-family: Myriad;
+    src: url(../fonts/Myriad.otf);
+}
+@font-face{
+    font-family:Segoe;
+    src: url(../fonts/Segoe.ttf);
+}
+
+$cocogoose: Cocogoose;
+$montserrat: Montserrat;
+$myriad: Myriad;
+$segoe:Segoe;

@@ -1,0 +1,37 @@
+.box {
+    margin: auto;
+    width: 300px;
+    display: flex;
+
+    @include tablet {
+        width: 600px;
+    }
+    @include desktop {
+        width: 700px;
+        margin-top: 1rem;
+    }
+
+    .icon {
+        width: 8rem;
+        height: 8rem;
+        align-self: center;
+        margin-top: -.2rem;
+
+        @include tablet {
+            width: 5rem;
+            height: 5rem;
+            margin-right: 1rem;
+        }
+    }
+
+    p {
+        font-family: $segoe;
+        font-size: 1.2rem;
+        margin: .5rem;
+        text-align: left;
+
+        @include tablet{
+            font-size: 1.3rem;
+        }
+    }
+}

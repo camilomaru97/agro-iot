@@ -1,0 +1,35 @@
+@import './base/base';
+@import './base/settings';
+
+//Corrector padding
+html{
+    @include box-sizing(border-box);
+}
+*,
+*:after,
+*:before{
+    @include box-sizing(inherit);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+//***********************************
+//**********Componentes**************
+//***********************************
+
+@import './components/headerbanner';
+@import './components/agro.scss';
+@import './components/conocenos';
+@import './components/objetivos';
+@import './components/vision';
+@import './components/footer';
+@import './components/experiencia'

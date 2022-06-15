@@ -1,0 +1,131 @@
+.conocenos__container {
+    position: relative;
+    /*
+    background-image: url('../images/backgeneral.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include tablet {
+        height: 200vh;
+        background-image: url('../images/backgeneral.png');
+
+        background-position-x: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    @include desktop {
+        height: 155vh;
+        background-image: url('../images/backgeneral.png');
+
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:auto;
+    } */
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        flex: 100%;
+        padding-top: 2rem;
+        font-size: 2rem;
+        font-family: $cocogoose;
+        color: #519B7B;
+        font-weight: lighter;
+
+        @include tablet {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
+.conocenos {
+    height: 100%;
+    margin-bottom: 1rem;
+
+    @include tablet {
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    @include desktop {
+        height: 100%;
+        margin-top: 0rem;
+        padding: 3rem 0rem;
+        margin-bottom: 0;
+    }
+}
+
+.btns {
+    flex: 100%;
+
+    button {
+        width: 200px;
+        height: 40px;
+        margin: .5rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid transparent;
+
+        font-family: $segoe;
+        font-size: 1.2rem;
+
+        @include tablet {
+            margin: 1rem;
+            width: 250px;
+            height: 50px;
+
+            font-size: 1.3rem;
+        }
+    }
+
+    
+}
+
+.shallow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+.img {
+
+
+    @include tablet {
+        margin-top: 2rem;
+    }
+}
+
+.img1 {
+    
+    width: 0px;
+    
+    @include desktop {
+        width: 20%;
+        position: absolute;
+        top: 0px;
+        right: 2rem;
+    }
+
+}
+
+.img2 {
+    width: 0px;
+    @include desktop {
+        width: 18%;
+        position: absolute;
+        bottom: 4rem;
+        left: 3rem;
+    }
+
+    @include desktopGrande{
+        width: 16%;
+        left: 5rem;
+    }
+
+}
